@@ -32,7 +32,7 @@ cacheSolve <- function(x, ...) {
     return(invm)
   }
   data <- x$get()
-  invm <- solve(data)
+  invm <- solve(data,...)
   x$setinvm(m)
   invm
 }
