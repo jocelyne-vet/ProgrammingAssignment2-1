@@ -36,3 +36,5 @@ cacheSolve <- function(x, ...) {
   x$setinvm(m)
   invm
 }
+
+#sha-1 0123456789abcdefghijklmnopqrstuvwxyz012
